@@ -79,3 +79,7 @@ header .intro-text .intro-lead-in{
 .entry-header > h3 {
     font-size: 16px;
 }
+.filter.nav.nav-pills {
+    margin: 30px auto;
+    width: 400px;
+}
