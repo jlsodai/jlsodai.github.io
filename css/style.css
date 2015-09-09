@@ -1,25 +1,81 @@
-.name, .study{
-	text-align: center;
+header::after {
+    background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
+    bottom: 0;
+    content: " ";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
 }
-.name {
-	color: #3e3e3e;
-	font-size: 48px;
+header .intro-text{
+	z-index: 999;
+    position: relative;
 }
-.study {
-	color: #222;
-	font-size: 64px;
+header .intro-text .intro-lead-in{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-size: 66px;
 }
-img{
-	width: 100%;
-	height: 360px;
-	border-radius: 50%;
+.navbar-default.navbar-shrink{
+	background: #028FCC;
 }
-.rowbg{
-	background: url(../img/music.jpg);
-	padding: 50px 0;
-	margin-bottom: 30px;
+.navbar-default .navbar-nav > .active > a{
+	background: #0172A3;
+}
+.navbar-default .navbar-brand{
+	color: #fff;
 }
 
-.carousel-control.left, .carousel-control.right{
-	background: none;
+.navbar-default.navbar-shrink .nav li a:hover,
+.navbar-default.navbar-shrink .nav li a:focus {
+    outline: 0;
+    color: #eee;
+}
+.page-scroll.btn.btn-xl {
+	background: transparent none repeat scroll 0 0;
+	border-color: #fff;
+}
+.navbar-brand{
+	padding: 5px 15px;
+}
+.margtop{
+	margin-top: 30px;
+}
+.blog-left-control, .blog-right-control {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 36px;
+    position: absolute;
+    text-align: center;
+    top: 45%;
+    width: 30px;
+}
+.blog-right-control {
+    right: 0;
+}
+.post-thumb {
+    position: relative;
+}
+.post-meta {
+    bottom: 15px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    left: 15px;
+    position: absolute;
+    text-transform: uppercase;
+}
+.post-icon {
+    border-radius: 4px;
+    color: #fff;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    top: 10px;
+    width: 30px;
+}
+.entry-header > h3 {
+    font-size: 16px;
 }
