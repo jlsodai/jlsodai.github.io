@@ -31,7 +31,9 @@ input.todoc{
 	float: right;
 	padding-left: 5px;
 	padding-bottom: 10px;
-	cursor: hand;
+}
+.glyphicon:hover{
+	text-decoration: none !important;
 }
 .glyphicon-ok{
 	color: green;
