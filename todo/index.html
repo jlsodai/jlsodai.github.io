@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> My ToDo App </title>
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div id="addtodo" class="col-md-3">
+                <h3>Add a task</h3>
+                <form id="add-form">
+                    <input type="text" class="form-control t-title" placeholder="Title" required/>
+                    <input type="text" class="form-control t-bdate" placeholder="Start Date (dd/mm/yyyy)" />
+                    <input type="text" class="form-control t-edate" placeholder="End Date (dd/mm/yyyy)" />
+                    <button class="btn btn-primary btn-block" type="submit">Add Task</button>
+                </form>
+            </div>
+            <div id="start" class="col-md-3">
+                <h3>Yet to Start</h3>
+            </div>
+            <div id="progress" class="col-md-3">
+                <h3>In Progress</h3>
+            </div>
+            <div id="complete" class="col-md-3">
+                <h3>Completed</h3>
+            </div>
+        </div>
+    </div><!-- /container -->
+    <script src="script.js"></script>
+</body>
+</html>
