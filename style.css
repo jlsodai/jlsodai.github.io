@@ -1,0 +1,24 @@
+input.todoc{
+	margin-right: 3px;
+}
+#add-form input {
+    width: 100%;
+    margin: 5px 0px;
+}
+.task-title {
+    font-weight: bold;
+    clear: both;
+}
+.task-start {
+    font-size: small;
+    font-style: italic;
+    float: left;
+}
+.task-end {
+    font-size: small;
+    font-style: italic;
+    float: right;
+}
+.task {
+    margin-bottom: 30px;
+}
