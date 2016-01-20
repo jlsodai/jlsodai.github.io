@@ -8,11 +8,11 @@ $( document ).ready(function() {
     	};
     	var bdate = $('.t-bdate').val();
     	if (bdate == "") {
-    		bdate = "25/06/1993";
+    		bdate = "21/01/2016";
     	};
     	var edate = $('.t-edate').val();
     	if (bdate == "") {
-    		bdate = "25/06/1993";
+    		bdate = "21/01/2016";
     	};
     	$('#start .panel').append(
 			'<div class="task panel-body">' +
